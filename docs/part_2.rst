@@ -7,7 +7,7 @@ Create a directory for your project called ``todo/``. In it, create a file
 called ``index.html``. This will be our only html file. Open it and add a basic
 html document structure.
 
-Create the following directory structore inside of ``todo/``:
+Create the following directory structure inside of ``todo/``:
 
 ::
 
@@ -37,7 +37,7 @@ them to the head of the document:
 Compilation
 -----------
 
-In order to compile your CoffeeScript files, to JavaScript, you will use the
+In order to compile your CoffeeScript files to JavaScript, you will use the
 ``coffee`` utility. To compile a ``test.coffee`` to ``test.js``, you run:
 
 ::
