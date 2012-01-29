@@ -34,8 +34,34 @@ them to the head of the document:
 * `Backbone.js`_
 
 
+Compilation
+-----------
 
+In order to compile your CoffeeScript files, to JavaScript, you will use the
+``coffee`` utility. To compile a ``test.coffee`` to ``test.js``, you run:
 
+::
+
+    $ coffee -c test.coffee
+
+This works on a whole directory, too:
+
+::
+
+    $ coffee -c src/
+
+If you don't want to be compiling your files by hand each time you make a
+change, you can use the built-in file watcher.
+
+::
+
+    $ coffee -wc src/*.coffee
+
+This will watch all CoffeeScript files in the ``src/`` directory and compile
+them to JavaScript when changes are made.
+
+Go ahead and try that now. Write some random CoffeeScript and see what it
+compiles to.
 
 
 .. _jQuery: http://jquery.com
