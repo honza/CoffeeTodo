@@ -139,4 +139,6 @@ Objects can also be simplified:
 
 Note the absence of commas, too.
 
+:doc:`Go to Part 2 </part_2>`
+
 .. _node.js: http://nodejs.org

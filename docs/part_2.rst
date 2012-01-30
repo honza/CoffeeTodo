@@ -77,6 +77,8 @@ them to JavaScript when changes are made.
 Go ahead and try that now. Write some random CoffeeScript and see what it
 compiles to.
 
+:doc:`Go to Part 3 </part_3>`
+
 
 .. _jQuery: http://jquery.com
 .. _Underscore.js: http://documentcloud.github.com/underscore/
