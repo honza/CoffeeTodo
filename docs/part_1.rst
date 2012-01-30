@@ -9,17 +9,31 @@ environment has all the necessary applications installed and configured
 properly. I'm going to assume that you are using a recent Mac OSX installation.
 
 First of all, you will need the CoffeeScript interpreter. The interpreter runs
-on top of `node.js`_ so you will need that, too. You can install both with
-homebrew:
+on top of `node.js`_ so you will need that, too. 
+
+This will give you two commands: ``node`` and ``coffee``. The ``coffee``
+command can be used to compile your CoffeeScript files into javascript. More on
+that later.
+
+Homebrew
+~~~~~~~~
 
 ::
 
     $ brew install node
     $ brew install coffee-script
 
-This will give you two commands: ``node`` and ``coffee``. The ``coffee``
-command can be used to compile your CoffeeScript files into javascript. More on
-that later.
+From source
+~~~~~~~~~~~
+
+::
+
+    $ git clone git://github.com/joyent/node.git
+    $ cd node/
+    $ ./configure
+    $ make
+    $ sudo make install
+    $ npm install -g coffee-script
 
 Language primer
 ---------------
