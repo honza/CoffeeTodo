@@ -17,11 +17,7 @@ Create the following directory structure inside of ``todo/``:
             underscore.js
             backbone.js
         src/
-            apps/
-            collections/
-            models/
-            utils/
-            views/
+            app.coffee
         css/
             style.css
         index.html
@@ -32,6 +28,24 @@ them to the head of the document:
 * `jQuery`_
 * `Underscore.js`_
 * `Backbone.js`_
+
+Add a link to the stylesheet and to the compiled version of ``app.coffee``. It
+should look something like this:
+
+.. sourcecode:: html
+
+    <!doctype html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+        <script src="lib/jquery.js" type="text/javascript"></script>
+        <script src="lib/underscore.js" type="text/javascript"></script>
+        <script src="lib/backbone.js" type="text/javascript"></script>
+        <script src="src/app.js" type="text/javascript"></script>
+    </head>
+    <body>
+    </body>
+    </html>
 
 
 Compilation
